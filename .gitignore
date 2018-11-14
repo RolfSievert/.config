@@ -1,0 +1,11 @@
+*
+!.gitignore
+!i3
+!i3/*
+!wal
+!wal/templates
+!wal/templates/*
+!compton
+!compton/*
+!rofi
+!rofi/*
