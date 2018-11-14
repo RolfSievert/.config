@@ -3,6 +3,8 @@
 *foreground:        {foreground}
 *background:        {background}
 *polybarbg:         #ef{background.strip}
+*color1a:           #77{color1.strip}
+*color2a:           #77{color2.strip}
 *.foreground:       {foreground}
 *.background:       {background}
 emacs*foreground:   {foreground}

@@ -9,3 +9,5 @@
 !compton/*
 !rofi
 !rofi/*
+!polybar
+!polybar/*
