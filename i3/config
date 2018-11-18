@@ -222,13 +222,13 @@ bindsym $mod+s exec python3 $HOME/.config/i3/swap_workspaces.py
 bindsym $mod+Shift+s exec python3 $HOME/.config/i3/shift_container_to_workspace.py
 # Restore previous color scheme
 exec_always --no-startup-id wal -R -n
+# Set colorscheme
+#exec_always --no-startup-id wal -g -n -i .themes/bg/bg --saturate 0.35 --backend colorthief
 # Get wallpaper
 #exec_always --no-startup-id feh --bg-fill $HOME/.themes/bg/bg
 exec_always --no-startup-id feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
 # Load background for locker
 exec_always --no-startup-id betterlockscreen -u $HOME/.themes/bg/bg
-# Set colorscheme
-#exec_always --no-startup-id wal -g -i $HOME/.themes/bg/bg --saturate 0.4
 # Start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Compton

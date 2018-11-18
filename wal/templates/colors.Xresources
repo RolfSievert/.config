@@ -3,8 +3,6 @@
 *foreground:        {foreground}
 *background:        {background}
 *polybarbg:         #ef{background.strip}
-*color1a:           #77{color1.strip}
-*color2a:           #77{color2.strip}
 *.foreground:       {foreground}
 *.background:       {background}
 emacs*foreground:   {foreground}
@@ -19,6 +17,16 @@ URxvt*cursorColor:  {cursor}
 XTerm*cursorColor:  {cursor}
 UXTerm*cursorColor: {cursor}
 URxvt*borderColor:  {background.alpha}
+
+! Transparent colors
+*color0a:           #88{color0.strip}
+*color1a:           #88{color1.strip}
+*color2a:           #88{color2.strip}
+*color3a:           #88{color3.strip}
+*color4a:           #88{color4.strip}
+*color5a:           #88{color5.strip}
+*color6a:           #88{color6.strip}
+*color7a:           #88{color7.strip}
 
 ! Colors 0-15.
 *.color0: {color0}
