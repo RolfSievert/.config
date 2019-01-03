@@ -191,8 +191,8 @@ smart_gaps on
 focus_follows_mouse no
 
 # Assign specific programs to workspaces
-for_window [class="Chromium"] move to workspace 3; workspace 3
-for_window [class="Spotify"] move to workspace 4; workspace 4
+for_window [class="Brave"] move to workspace 1; workspace 1
+#for_window [class="Spotify"] move to workspace 4; workspace 4
 
 # STARTUP STUFF
 # Keybindings
@@ -209,7 +209,7 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 # Chromium
-bindsym $mod+c exec chromium
+bindsym $mod+c exec brave
 # Lock screen
 bindsym XF86ScreenSaver exec betterlockscreen -l dim -t "unlock the swag"
 bindsym Control+$mod+l exec betterlockscreen -l dim --text "unlock the swag"
